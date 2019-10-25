@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lupin9314.github.io/</id>
+    <id>http://localhost:4000</id>
     <title></title>
-    <updated>2019-10-25T12:50:16.686Z</updated>
+    <updated>2019-10-25T12:59:39.791Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lupin9314.github.io/"/>
-    <link rel="self" href="https://lupin9314.github.io//atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>&lt;html&gt;
 &lt;h3 style=&quot;font-family:cursive;font-size:30px&quot;&gt;I love you&lt;br&gt;
 &lt;/h3&gt;
@@ -14,40 +14,40 @@
 
 
 &lt;/html&gt;</subtitle>
-    <logo>https://lupin9314.github.io//images/avatar.png</logo>
-    <icon>https://lupin9314.github.io//favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2019, </rights>
     <entry>
         <title type="html"><![CDATA[犯罪3]]></title>
-        <id>https://lupin9314.github.io//post/fan-zui-3</id>
-        <link href="https://lupin9314.github.io//post/fan-zui-3">
+        <id>http://localhost:4000/post/fan-zui-3</id>
+        <link href="http://localhost:4000/post/fan-zui-3">
         </link>
         <updated>2019-10-25T12:40:10.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lupin9314.github.io//post-images/1572007230986.png" alt=""></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1572007230986.png" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[犯罪2]]></title>
-        <id>https://lupin9314.github.io//post/fan-zui-2</id>
-        <link href="https://lupin9314.github.io//post/fan-zui-2">
+        <id>http://localhost:4000/post/fan-zui-2</id>
+        <link href="http://localhost:4000/post/fan-zui-2">
         </link>
         <updated>2019-10-25T12:39:47.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lupin9314.github.io//post-images/1572007198757.png" alt=""></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1572007198757.png" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[犯罪1]]></title>
-        <id>https://lupin9314.github.io//post/fan-zui-1</id>
-        <link href="https://lupin9314.github.io//post/fan-zui-1">
+        <id>http://localhost:4000/post/fan-zui-1</id>
+        <link href="http://localhost:4000/post/fan-zui-1">
         </link>
         <updated>2019-10-25T12:39:18.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lupin9314.github.io//post-images/1572007165320.png" alt=""></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1572007165320.png" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[10个要求]]></title>
-        <id>https://lupin9314.github.io//post/10-ge-yao-qiu</id>
-        <link href="https://lupin9314.github.io//post/10-ge-yao-qiu">
+        <id>http://localhost:4000/post/10-ge-yao-qiu</id>
+        <link href="http://localhost:4000/post/10-ge-yao-qiu">
         </link>
         <updated>2019-10-25T11:13:52.000Z</updated>
         <content type="html"><![CDATA[<p>1 每天要表达好多次我爱你，我想你<br>
@@ -64,8 +64,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[奔跑健儿~畅冠光]]></title>
-        <id>https://lupin9314.github.io//post/ben-pao-jian-er-~chang-guan-guang</id>
-        <link href="https://lupin9314.github.io//post/ben-pao-jian-er-~chang-guan-guang">
+        <id>http://localhost:4000/post/ben-pao-jian-er-~chang-guan-guang</id>
+        <link href="http://localhost:4000/post/ben-pao-jian-er-~chang-guan-guang">
         </link>
         <updated>2019-10-25T11:11:08.000Z</updated>
         <summary type="html"><![CDATA[<pre><code>感觉我这活的前几年都在奔跑
@@ -99,35 +99,35 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[美美的老婆大人3]]></title>
-        <id>https://lupin9314.github.io//post/3</id>
-        <link href="https://lupin9314.github.io//post/3">
+        <id>http://localhost:4000/post/3</id>
+        <link href="http://localhost:4000/post/3">
         </link>
         <updated>2019-10-25T11:06:27.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lupin9314.github.io//post-images/1572001595026.jpg" alt=""></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1572001595026.jpg" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[美美的老婆大人2]]></title>
-        <id>https://lupin9314.github.io//post/2</id>
-        <link href="https://lupin9314.github.io//post/2">
+        <id>http://localhost:4000/post/2</id>
+        <link href="http://localhost:4000/post/2">
         </link>
         <updated>2019-10-25T11:05:29.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lupin9314.github.io//post-images/1572001537863.jpg" alt=""></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1572001537863.jpg" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[美美的老婆大人]]></title>
-        <id>https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren</id>
-        <link href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren">
+        <id>http://localhost:4000/post/mei-mei-de-lao-po-da-ren</id>
+        <link href="http://localhost:4000/post/mei-mei-de-lao-po-da-ren">
         </link>
         <updated>2019-10-25T10:48:21.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lupin9314.github.io//post-images/1572001417450.jpg" alt=""></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1572001417450.jpg" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[I promise.]]></title>
-        <id>https://lupin9314.github.io//post/fifty_promise</id>
-        <link href="https://lupin9314.github.io//post/fifty_promise">
+        <id>http://localhost:4000/post/fifty_promise</id>
+        <link href="http://localhost:4000/post/fifty_promise">
         </link>
         <updated>2019-10-25T10:31:31.000Z</updated>
         <content type="html"><![CDATA[<p>1 一起去迪士尼<br>
@@ -185,8 +185,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[First'']]></title>
-        <id>https://lupin9314.github.io//post/first</id>
-        <link href="https://lupin9314.github.io//post/first">
+        <id>http://localhost:4000/post/first</id>
+        <link href="http://localhost:4000/post/first">
         </link>
         <updated>2019-10-24T15:24:28.000Z</updated>
         <content type="html"><![CDATA[<p>你好呀。小宝贝，欢迎来到我们的小窝。🏡<br>
