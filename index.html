@@ -1,410 +1,240 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
-<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
-<meta HTTP-EQUIV="expires" CONTENT="0"> 
-<title></title>	
+<html>
+  <head>
+    <meta charset="utf-8" >
 
-<link rel="stylesheet" href="https://lupin9314.github.io//styles/main.css">
-<script type="text/javascript">
-function getCSS()
-{
-        datetoday = new Date();
-        timenow=datetoday.getTime();
-        datetoday.setTime(timenow);
-        thehour = datetoday.getHours();
+<title></title>
+<meta name="description" content="&lt;html&gt;
+&lt;h3 style=&#34;font-family:cursive;font-size:30px&#34;&gt;I love you&lt;br&gt;
+&lt;/h3&gt;
+&lt;p style=&#34;font-family:fantasy;font-size:20px;&#34;&gt;任莹莹&lt;/p&gt;
+&lt;br/&gt;
 
-            display = "https://lupin9314.github.io//media/css/night.css";
 
-            display = "https://lupin9314.github.io//media/css/night.css";   
-      
-            display = "https://lupin9314.github.io//media/css/day.css";
+&lt;/html&gt;">
 
-            display = "https://lupin9314.github.io//media/css/day.css";
-      
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-var css = '<';
-        css+='link rel="stylesheet" href='+display+' \/';
-        css+='>';
-        document.write(css);
-}
-</script>
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Sans+SC:300|Montserrat&display=swap" rel="stylesheet">
-<link href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css" rel="stylesheet" />
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lupin9314.github.io//favicon.ico?v=1572098961444">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<script type='text/javascript' src='https://lupin9314.github.io//media/scripts/script.js'></script>
-<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
-  <script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
-  <script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <script>wow=new WOW({boxClass:'wow',animateClass:'animated',offset:0,mobile:true,live:true});wow.init();</script>
-
-<script type="text/javascript">
-window.onload=getCSS();
-</script>
+<link rel="stylesheet" href="https://lupin9314.github.io//styles/main.css">
 
 
-</head>
-<body class="home blog">
-    <div id="wrapper">
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://lupin9314.github.io/">
+        <img src="https://lupin9314.github.io//images/avatar.png?v=1572098961444" class="site-logo">
+        <h1 class="site-title"></h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-		<header id="header" class="site-header" >
-			<div class="site-branding">
-									<h1 class="site-title"><a href="https://lupin9314.github.io/" rel="home"></a></h1>
-										
-					<h2 class="site-description"><html>
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="https://lupin9314.github.io//tags" class="site-nav">
+            标签
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <html>
 <h3 style="font-family:cursive;font-size:30px">I love you<br>
 </h3>
-<p style="font-family:fantasy;font-size:20px;"target="_blank>任莹莹</p>
+<p style="font-family:fantasy;font-size:20px;">任莹莹</p>
 <br/>
 
 
-</html></h2>
-										
-							</div>
-			<nav id="nav-wrapper">
-				<div class="container">
-					<div class="nav-toggle">
-						<div class="bars">
-							<div class="bar"></div>
-							<div class="bar"></div>
-							<div class="bar"></div>
-						</div>
-					</div>
-					<div class="clear"></div>
-					<ul class="dove">
-		 
-     			
-<li>
-	 
-	<a  href="/"> 首页</a></li>
-	
-    
-     			
-<li>
-	 
-	<a  href="/archives"> 归档</a></li>
-	
-    
-     			
-<li>
-	 
-	<a  href="https://lupin9314.github.io//tags"> 标签</a></li>
-	
-    
-     			
-<li>
-	 
-	<a  href="http://localhost:4000/tag/jhP2TJkuQ/"> 相册</a></li>
-	
-    
-     			
-<li>
-	 
-	<a  href="http://localhost:4000/tag/aGM18nUFX/"> 约定</a></li>
-	
-    
-     			
-<li>
-	 
-	<a  href="http://localhost:4000/tag/eexrSZTCZ/"> 日记</a></li>
-	
-    
-     			
-<li>
-	 
-	<a  href="http://localhost:4000/tag/r7pnNqszc/"> 犯罪证据</a></li>
-	
-    
-     			
-<li>
-	 
-	<a  href="https://lupin9314.github.io//post/xiao-chang-zui/"> 小长嘴</a></li>
-	
-    
-     			
-<li>
-	 
-	<a  href="Uesg9WHh9"> 我们的故事</a></li>
-	
-    
-
-</ul>
-</li>		
-		
-</ul>				</div>
-			</nav>
-
-<div class="jingge">
+</html>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" >Gridea</a> | <a class="rss" href="https://lupin9314.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        </header>
-
-		<div id="content" class="container">
-			<div class="row">
-	<div class="col-md-8 site-main">
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/fan-dui-v" rel="bookmark">反对v</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-26 17:50:19" itemprop="datePublished" pubdate="">2019-10-26</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/fan-dui-v" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-6" rel="bookmark">美美的老婆大人6</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-25 21:20:25" itemprop="datePublished" pubdate="">2019-10-25</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-6" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-5" rel="bookmark">美美的老婆大人5</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-25 21:19:57" itemprop="datePublished" pubdate="">2019-10-25</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-5" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-4" rel="bookmark"> 美美的老婆大人4</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-25 21:18:58" itemprop="datePublished" pubdate="">2019-10-25</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-4" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	 <a href="https://lupin9314.github.io//post/xiao-chang-zui">
-		<div class="posttou" style="background-image:url(https://lupin9314.github.io//post-images/xiao-chang-zui.jpg)"></div>	
-		</a>		
-  	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/xiao-chang-zui" rel="bookmark">小长嘴</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-25 21:14:14" itemprop="datePublished" pubdate="">2019-10-25</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/xiao-chang-zui" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/fan-zui-3" rel="bookmark">犯罪3</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-25 20:40:10" itemprop="datePublished" pubdate="">2019-10-25</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/fan-zui-3" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/fan-zui-2" rel="bookmark">犯罪2</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-25 20:39:47" itemprop="datePublished" pubdate="">2019-10-25</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/fan-zui-2" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/fan-zui-1" rel="bookmark">犯罪1</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-25 20:39:18" itemprop="datePublished" pubdate="">2019-10-25</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/fan-zui-1" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/10-ge-yao-qiu" rel="bookmark">10个要求</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-25 19:13:52" itemprop="datePublished" pubdate="">2019-10-25</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/10-ge-yao-qiu" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 						
-<article class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
-	
-	 
-	   
-	<div class="entry-content">
-		<h1 class="entry-title"><a href="https://lupin9314.github.io//post/ben-pao-jian-er-~chang-guan-guang" rel="bookmark">奔跑健儿~畅冠光</a></h1>
-		<div class="entry-meta">
-		<i class="iconfont icon-rili"> <time class="lately-a" datetime="2019-10-25 19:11:08" itemprop="datePublished" pubdate="">2019-10-25</time></i>
-	 
-			
-		</div>
-
-		<div class="entry-summary jia">
-			<pre><code>感觉我这活的前几年都在奔跑
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-6">
+                  <h2 class="post-title">美美的老婆大人6</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-5">
+                  <h2 class="post-title">美美的老婆大人5</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-4">
+                  <h2 class="post-title"> 美美的老婆大人4</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/xiao-chang-zui">
+                  <h2 class="post-title">小长嘴</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://lupin9314.github.io//post/xiao-chang-zui">
+                  <div class="feature-container" style="background-image: url('https://lupin9314.github.io//post-images/xiao-chang-zui.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/fan-zui-3">
+                  <h2 class="post-title">犯罪3</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/fan-zui-2">
+                  <h2 class="post-title">犯罪2</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/fan-zui-1">
+                  <h2 class="post-title">犯罪1</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/10-ge-yao-qiu">
+                  <h2 class="post-title">10个要求</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/ben-pao-jian-er-~chang-guan-guang">
+                  <h2 class="post-title">奔跑健儿~畅冠光</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  <pre><code>感觉我这活的前几年都在奔跑
 婴儿时期，在妈妈肚子里奔跑，小脚乱蹬，踢妈妈的肚皮。天生的运动健儿。🤾‍♂
 小学，在操场上奔跑，和小朋友们赛跑，抓人
 初中，在楼道里奔跑，和小朋友们迟到，睡眼朦胧中听着响铃声冲出宿舍，被教导主任抓住，踢了一脚，踢醒了，站在楼下一早上。
@@ -416,154 +246,57 @@ window.onload=getCSS();
 我爱你，我的小宝贝。💖
 </code></pre>
 
-			<p class="readmore">
-				<a href="https://lupin9314.github.io//post/ben-pao-jian-er-~chang-guan-guang" class="link-more">Read more</a>
-			</p>
-		</div>
-		
-	</div>
-	
-</article>
-		
- 
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://lupin9314.github.io//post/3">
+                  <h2 class="post-title">美美的老婆大人3</h2>
+                </a>
+                <div class="post-date">
+                  2019-10-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
 
-											   
-	</div>
-            
-		
-
-			</div>
-														   
-			<nav class="navigation pagination" role="navigation">
-	
-														   
-		<div class="nav-links">
-			
-<a class="next page-numbers" href="https://lupin9314.github.io//page/2/">点击查看更多</a></div>
-		
-	</nav>	
-    	<script type="text/javascript">
-//点击加载更多
-jQuery(document).ready(function($) {
-    //点击下一页的链接(即那个a标签)
-    $(' .next').click(function() {
-        $this = $(this);
-        $this.addClass('loading').text('正在努力加载'); //给a标签加载一个loading的class属性，用来添加加载效果
-        var href = $this.attr('href'); //获取下一页的链接地址
-        if (href != undefined) { //如果地址存在
-            $.ajax({ //发起ajax请求
-                url: href,
-                //请求的地址就是下一页的链接
-                type: 'get',
-                //请求类型是get
-                error: function(request) {
-                    //如果发生错误怎么处理
-                },
-                success: function(data) { //请求成功
-                    $this.removeClass('loading').text('点击查看更多'); //移除loading属性
-                    var $res = $(data).find('.post-318 '); //从数据中挑出文章数据，请根据实际情况更改
-                    $('.col-md-8').append($res.fadeIn(500)); //将数据加载加进posts-loop的标签中。
-                    var newhref = $(data).find(' .next').attr('href'); //找出新的下一页链接
-                    if (newhref != undefined) {
-                        $('.next').attr('href', newhref);
-                    } else {
-                        $('.next').remove(); //如果没有下一页了，隐藏
-                    }
-                }
-            });
-        }
-        return false;
-    });
-});
-</script>
-									 
-		</div>
-
-		
-	 	<footer id="colophon" class="site-footer">
-
-			<div class="container">
-	
-				<div class="copyright">Powered by <a href="https://github.com/getgridea/gridea" >Gridea</a><br>Theme:   <a href="https://github.com/alterfang/gridea-theme-pan" target="_blank" title="Pan"><span>Pan</span></a>. Powered by <a href="https://gridea.dev/" target="_blank" title="Gridea"><span>Gridea</span></a></div>		
-			</div>
-		
-		</footer>
-
+          <div class="pagination-container">
+  
+  
+    <a href="https://lupin9314.github.io//page/2/" class="next">下一页 <i class="icon-arrow-ios-forward-outline"></i></a>
+  
 </div>
 
-<script src="https://cdn.bootcss.com/fitvids/1.2.0/jquery.fitvids.min.js"></script>
-<script type='text/javascript' src='https://lupin9314.github.io//media/scripts/marlin-scripts.js'></script>
- <script src="//tokinx.github.io/lately/lately.min.js"></script>
-  <script>jQuery(document).ready(function(){$.lately({'target':'.lately-a,.lately-b,.lately-c'})});</script>
-  <style type="text/css">a.back_to_top {
-    text-decoration: none;
-    position: fixed;
-    bottom: 40px;
-    right: 30px;
-    background: #f0f0f0;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    line-height: 36px;
-    font-size: 18px;
-    text-align: center;
-    transition-duration: .5s;
-    transition-propety: background-color;
-    display: none;
-}
+        </div>
+      </div>
+    </div>
 
-a.back_to_top span {
-    color: #888;
-}
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-a.back_to_top:hover {
-    cursor: pointer;
-    background: #dfdfdf;
-}
+<script type="application/javascript">
 
-a.back_to_top:hover span {
-    color: #555;
-}
+AOS.init();
 
-@media print, screen and (max-width: 580px) {
-    .back_to_top {
-        display: none !important;
-    }
-}
+hljs.initHighlightingOnLoad()
 
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-
-</style><a id="back_to_top" href="#" class="back_to_top"><span><i class="iconfont icon-xiangshang"></i></span>
-</a>
-
-
-<script>$(document).ready((function(_this) {
-  return function() {
-    var bt;
-    bt = $('#back_to_top');
-    if ($(document).width() > 480) {
-      $(window).scroll(function() {
-        var st;
-        st = $(window).scrollTop();
-        if (st > 30) {
-          return bt.css('display', 'block');
-        } else {
-          return bt.css('display', 'none');
-        }
-      });
-      return bt.click(function() {
-        $('body,html').animate({
-          scrollTop: 0
-        }, 800);
-        return false;
-      });
-    }
-  };
-})(this));
 </script>
 
-	
-	
-														   
-</body>
+
+
+
+  </body>
 </html>

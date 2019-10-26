@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lupin9314.github.io/</id>
     <title></title>
-    <updated>2019-10-26T09:53:00.546Z</updated>
+    <updated>2019-10-26T14:18:47.752Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lupin9314.github.io/"/>
     <link rel="self" href="https://lupin9314.github.io//atom.xml"/>
     <subtitle>&lt;html&gt;
 &lt;h3 style=&quot;font-family:cursive;font-size:30px&quot;&gt;I love you&lt;br&gt;
 &lt;/h3&gt;
-&lt;p style=&quot;font-family:fantasy;font-size:20px;&quot;target=&quot;_blank&gt;任莹莹&lt;/p&gt;
+&lt;p style=&quot;font-family:fantasy;font-size:20px;&quot;&gt;任莹莹&lt;/p&gt;
 &lt;br/&gt;
 
 
@@ -17,15 +17,6 @@
     <logo>https://lupin9314.github.io//images/avatar.png</logo>
     <icon>https://lupin9314.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, </rights>
-    <entry>
-        <title type="html"><![CDATA[反对v]]></title>
-        <id>https://lupin9314.github.io//post/fan-dui-v</id>
-        <link href="https://lupin9314.github.io//post/fan-dui-v">
-        </link>
-        <updated>2019-10-26T09:50:19.000Z</updated>
-        <content type="html"><![CDATA[<p>机动车几次</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[美美的老婆大人6]]></title>
         <id>https://lupin9314.github.io//post/mei-mei-de-lao-po-da-ren-6</id>
@@ -142,6 +133,15 @@
 <!-- more -->
 <pre><code>                                                      ······畅冠光在迟到的路上
                                                       ······有感而发。🤡</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美美的老婆大人3]]></title>
+        <id>https://lupin9314.github.io//post/3</id>
+        <link href="https://lupin9314.github.io//post/3">
+        </link>
+        <updated>2019-10-25T11:06:27.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://lupin9314.github.io//post-images/1572001595026.jpg" alt=""></figure>
 ]]></content>
     </entry>
 </feed>
